@@ -1,7 +1,7 @@
 
 # 10 x 10 Levels (10 Players)
-Levels: 11
-Solution Lengths: 71 - 88
+- Levels: 11
+- Solution Lengths: 71 - 88
 
 ```
 –––––
