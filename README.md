@@ -556,3 +556,460 @@ SaveMovement
 	- Total Empty Spaces: 7485
 –––––
 ```
+
+
+# 4x5 puzzles
+
+```
+
+// [4, 5] GOAL: 7
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[2, 4]:[[0, 0]]], [[2, 3]:[[0, 0]]]]
+	- Total Characters: 2
+[e.s.]
+[..s•]
+[...•]
+[•.••]
+[•e.•]
+SaveMovement
+	- movement: [[1, 0], [0, 1], [-1, 0], [0, -1], [1, 0], [0, 1], [-1, 0]]
+	- characters: [[[1, 0]:[[0, 0]]], [[0, 4]:[[0, 0]]]]
+	- Solution Length: 7
+	- Total Checks: 14
+	- Total Time: 0.0
+	- Total Empty Spaces: 13
+–––––
+""",
+
+// [4, 5] GOAL: 6
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[2, 1]:[[0, 0]]], [[0, 2]:[[0, 0]]]]
+	- Total Characters: 2
+[.•ee]
+[....]
+[s...]
+[•.s.]
+[....]
+SaveMovement
+	- movement: [[1, 0], [0, -1], [-1, 0], [0, -1], [1, 0], [0, 1]]
+	- characters: [[[2, 4]:[[0, 0]]], [[3, 4]:[[0, 0]]]]
+	- Solution Length: 6
+	- Total Checks: 27
+	- Total Time: 0.0
+	- Total Empty Spaces: 18
+–––––
+""",
+
+// [4, 5] GOAL: 5
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[1, 0]:[[0, 0]]], [[0, 3]:[[0, 0]]]]
+	- Total Characters: 2
+[.•..]
+[s•.•]
+[...•]
+[••.•]
+[ese.]
+SaveMovement
+	- movement: [[0, -1], [1, 0], [0, 1], [-1, 0], [0, -1]]
+	- characters: [[[2, 0]:[[0, 0]]], [[0, 0]:[[0, 0]]]]
+	- Solution Length: 5
+	- Total Checks: 16
+	- Total Time: 0.0
+	- Total Empty Spaces: 13
+–––––
+""",
+
+// [4, 5] GOAL: 8
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[0, 0]:[[0, 0]]], [[1, 4]:[[0, 0]]]]
+	- Total Characters: 2
+[.s•.]
+[....]
+[.•..]
+[•.e•]
+[s..e]
+SaveMovement
+	- movement: [[0, -1], [1, 0], [0, -1], [-1, 0], [0, -1], [-1, 0], [0, 1], [1, 0]]
+	- characters: [[[2, 1]:[[0, 0]]], [[3, 0]:[[0, 0]]]]
+	- Solution Length: 8
+	- Total Checks: 22
+	- Total Time: 0.0
+	- Total Empty Spaces: 16
+–––––
+""",
+
+// [4, 5] GOAL: 4
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[0, 4]:[[0, 0]]], [[0, 0]:[[0, 0]]]]
+	- Total Characters: 2
+[b..•]
+[...•]
+[e...]
+[....]
+[s..•]
+SaveMovement
+	- movement: [[0, -1], [1, 0], [0, 1], [-1, 0]]
+	- characters: [[[0, 4]:[[0, 0]]], [[0, 2]:[[0, 0]]]]
+	- Solution Length: 4
+	- Total Checks: 9
+	- Total Time: 0.0
+	- Total Empty Spaces: 17
+–––––
+""",
+
+// [4, 5] GOAL: 9
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[0, 0]:[[0, 0]]], [[2, 0]:[[0, 0]]]]
+	- Total Characters: 2
+[....]
+[...•]
+[•...]
+[.e••]
+[s•b.]
+SaveMovement
+	- movement: [[0, 1], [1, 0], [0, 1], [-1, 0], [0, -1], [1, 0], [0, -1], [-1, 0], [0, -1]]
+	- characters: [[[1, 1]:[[0, 0]]], [[2, 0]:[[0, 0]]]]
+	- Solution Length: 9
+	- Total Checks: 16
+	- Total Time: 0.0
+	- Total Empty Spaces: 15
+–––––
+""",
+
+// [4, 5] GOAL: 12
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[3, 4]:[[0, 0]]], [[3, 2]:[[0, 0]]]]
+	- Total Characters: 2
+[.•.s]
+[e.•.]
+[e.•s]
+[..•.]
+[•...]
+SaveMovement
+	- movement: [[0, -1], [-1, 0], [0, -1], [-1, 0], [0, 1], [-1, 0], [0, 1], [-1, 0], [0, -1], [1, 0], [0, 1], [-1, 0]]
+	- characters: [[[0, 2]:[[0, 0]]], [[0, 3]:[[0, 0]]]]
+	- Solution Length: 12
+	- Total Checks: 34
+	- Total Time: 0.0
+	- Total Empty Spaces: 15
+–––––
+""",
+
+// [4, 5] GOAL: 11
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[0, 4]:[[0, 0]]], [[0, 2]:[[0, 0]]]]
+	- Total Characters: 2
+[s.•.]
+[....]
+[s••.]
+[•...]
+[.e.e]
+SaveMovement
+	- movement: [[0, 1], [1, 0], [0, -1], [1, 0], [0, -1], [-1, 0], [0, -1], [1, 0], [0, 1], [-1, 0], [0, -1]]
+	- characters: [[[1, 0]:[[0, 0]]], [[3, 0]:[[0, 0]]]]
+	- Solution Length: 11
+	- Total Checks: 27
+	- Total Time: 0.0
+	- Total Empty Spaces: 16
+–––––
+""",
+
+// [4, 5] GOAL: 10
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[3, 0]:[[0, 0]]], [[2, 3]:[[0, 0]]]]
+	- Total Characters: 2
+[e.••]
+[.•s•]
+[....]
+[e•..]
+[••.s]
+SaveMovement
+	- movement: [[0, 1], [-1, 0], [0, -1], [1, 0], [0, 1], [-1, 0], [0, 1], [1, 0], [0, -1], [-1, 0]]
+	- characters: [[[0, 4]:[[0, 0]]], [[0, 1]:[[0, 0]]]]
+	- Solution Length: 10
+	- Total Checks: 27
+	- Total Time: 0.0
+	- Total Empty Spaces: 13
+–––––
+""",
+
+// [4, 5] GOAL: 14
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[0, 4]:[[0, 0]]], [[3, 3]:[[0, 0]]]]
+	- Total Characters: 2
+[s...]
+[.•.s]
+[•.e•]
+[..•e]
+[....]
+SaveMovement
+	- movement: [[0, 1], [1, 0], [0, -1], [-1, 0], [0, -1], [-1, 0], [0, -1], [1, 0], [0, 1], [-1, 0], [0, 1], [1, 0], [0, 1], [1, 0]]
+	- characters: [[[3, 1]:[[0, 0]]], [[2, 2]:[[0, 0]]]]
+	- Solution Length: 14
+	- Total Checks: 49
+	- Total Time: 0.0
+	- Total Empty Spaces: 16
+–––––
+""",
+
+// [4, 5] GOAL: 13
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[1, 1]:[[0, 0]]], [[2, 2]:[[0, 0]]]]
+	- Total Characters: 2
+[...•]
+[..e•]
+[.•b.]
+[•s•.]
+[....]
+SaveMovement
+	- movement: [[0, 1], [-1, 0], [0, -1], [1, 0], [0, 1], [-1, 0], [0, 1], [-1, 0], [0, -1], [-1, 0], [0, 1], [1, 0], [0, -1]]
+	- characters: [[[2, 2]:[[0, 0]]], [[2, 3]:[[0, 0]]]]
+	- Solution Length: 13
+	- Total Checks: 43
+	- Total Time: 0.0
+	- Total Empty Spaces: 15
+–––––
+""",
+
+// [4, 5] GOAL: 15
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[3, 0]:[[0, 0]]], [[3, 1]:[[0, 0]]]]
+	- Total Characters: 2
+[.••e]
+[.•.e]
+[...•]
+[...s]
+[..•s]
+SaveMovement
+	- movement: [[-1, 0], [0, -1], [1, 0], [0, 1], [1, 0], [0, 1], [1, 0], [0, 1], [-1, 0], [0, -1], [1, 0], [0, 1], [1, 0], [0, 1], [1, 0]]
+	- characters: [[[3, 4]:[[0, 0]]], [[3, 3]:[[0, 0]]]]
+	- Solution Length: 15
+	- Total Checks: 33
+	- Total Time: 0.0
+	- Total Empty Spaces: 15
+–––––
+""",
+
+// [4, 5] GOAL: 17
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[3, 1]:[[0, 0]]], [[3, 0]:[[0, 0]]]]
+	- Total Characters: 2
+[...•]
+[.•e.]
+[...•]
+[...s]
+[..•b]
+SaveMovement
+	- movement: [[-1, 0], [0, 1], [-1, 0], [0, 1], [1, 0], [0, 1], [-1, 0], [0, -1], [1, 0], [0, 1], [1, 0], [0, 1], [1, 0], [0, -1], [1, 0], [0, -1], [-1, 0]]
+	- characters: [[[3, 0]:[[0, 0]]], [[2, 3]:[[0, 0]]]]
+	- Solution Length: 17
+	- Total Checks: 36
+	- Total Time: 0.0
+	- Total Empty Spaces: 16
+–––––
+""",
+
+// [4, 5] GOAL: 16
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[0, 2]:[[0, 0]]], [[1, 0]:[[0, 0]]]]
+	- Total Characters: 2
+[•.e.]
+[.•..]
+[s.•.]
+[•...]
+[es.•]
+SaveMovement
+	- movement: [[1, 0], [0, 1], [1, 0], [0, -1], [1, 0], [0, 1], [1, 0], [0, 1], [-1, 0], [0, 1], [1, 0], [0, -1], [-1, 0], [0, -1], [-1, 0], [0, 1]]
+	- characters: [[[0, 0]:[[0, 0]]], [[2, 4]:[[0, 0]]]]
+	- Solution Length: 16
+	- Total Checks: 46
+	- Total Time: 0.0
+	- Total Empty Spaces: 15
+–––––
+""",
+
+// [4, 5] GOAL: 18
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[3, 0]:[[0, 0]]], [[3, 1]:[[0, 0]]]]
+	- Total Characters: 2
+[..••]
+[..e.]
+[.•.•]
+[..•b]
+[•..s]
+SaveMovement
+	- movement: [[-1, 0], [0, 1], [-1, 0], [0, -1], [-1, 0], [0, 1], [-1, 0], [0, 1], [1, 0], [0, -1], [1, 0], [0, -1], [-1, 0], [0, -1], [1, 0], [0, -1], [1, 0], [0, 1]]
+	- characters: [[[2, 3]:[[0, 0]]], [[3, 1]:[[0, 0]]]]
+	- Solution Length: 18
+	- Total Checks: 44
+	- Total Time: 0.0
+	- Total Empty Spaces: 14
+–––––
+""",
+
+// [4, 5] GOAL: 20
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[2, 1]:[[0, 0]]], [[3, 2]:[[0, 0]]]]
+	- Total Characters: 2
+[..e.]
+[.•.•]
+[..•s]
+[•.b.]
+[.•..]
+SaveMovement
+	- movement: [[1, 0], [0, -1], [-1, 0], [0, 1], [-1, 0], [0, 1], [-1, 0], [0, 1], [1, 0], [0, 1], [1, 0], [0, -1], [-1, 0], [0, -1], [1, 0], [0, -1], [1, 0], [0, -1], [-1, 0], [0, 1]]
+	- characters: [[[2, 1]:[[0, 0]]], [[2, 4]:[[0, 0]]]]
+	- Solution Length: 20
+	- Total Checks: 47
+	- Total Time: 0.0
+	- Total Empty Spaces: 15
+–––––
+""",
+
+// [4, 5] GOAL: 19
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[0, 2]:[[0, 0]]], [[3, 2]:[[0, 0]]]]
+	- Total Characters: 2
+[.e..]
+[•.•.]
+[s•.s]
+[.e.•]
+[..•.]
+SaveMovement
+	- movement: [[0, -1], [1, 0], [0, 1], [1, 0], [0, 1], [1, 0], [0, 1], [-1, 0], [0, 1], [-1, 0], [0, -1], [1, 0], [0, -1], [-1, 0], [0, -1], [-1, 0], [0, -1], [1, 0], [0, 1]]
+	- characters: [[[1, 4]:[[0, 0]]], [[1, 1]:[[0, 0]]]]
+	- Solution Length: 19
+	- Total Checks: 45
+	- Total Time: 0.0
+	- Total Empty Spaces: 15
+–––––
+""",
+
+// [4, 5] GOAL: 21
+"""
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[2, 0]:[[0, 0]]], [[3, 0]:[[0, 0]]]]
+	- Total Characters: 2
+[..e.]
+[.•.•]
+[..•.]
+[•.e.]
+[.•ss]
+SaveMovement
+	- movement: [[0, 1], [1, 0], [0, -1], [-1, 0], [0, 1], [-1, 0], [0, 1], [-1, 0], [0, 1], [1, 0], [0, 1], [1, 0], [0, -1], [-1, 0], [0, -1], [1, 0], [0, -1], [1, 0], [0, -1], [-1, 0], [0, 1]]
+	- characters: [[[2, 1]:[[0, 0]]], [[2, 4]:[[0, 0]]]]
+	- Solution Length: 21
+	- Total Checks: 47
+	- Total Time: 0.0
+	- Total Empty Spaces: 15
+–––––
+""",
+Program ended with exit code: 9
+```
