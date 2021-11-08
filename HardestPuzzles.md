@@ -1,7 +1,7 @@
 # 5x5 Hardest Puzzles
 
 
-With 2 blocks
+With 2 blocks (12)
 ```
 –––––
 Ever Maze v1
@@ -26,7 +26,7 @@ SaveMovement
 –––––
 ```
 
-With 3 blocks
+With 3 blocks (16)
 ```
 –––––
 Ever Maze v1
@@ -51,7 +51,7 @@ SaveMovement
 –––––
 ```
 
-With 4 Blocks
+With 4 Blocks (18)
 
 ```
 –––––
@@ -121,7 +121,7 @@ SaveMovement
 –––––
 ```
 
-With 5 Blocks
+With 5 Blocks (24)
 
 ```
 –––––
