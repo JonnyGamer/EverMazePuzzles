@@ -1,9 +1,7 @@
-
-# 5x5
-
-Here is the *hardest* 5x5 Ever Maze puzzles, with 2 walls.
+# 5x5 Hardest Puzzles
 
 
+With 2 blocks
 ```
 –––––
 Ever Maze v1
@@ -27,6 +25,38 @@ SaveMovement
 	- Total Empty Spaces: 23
 –––––
 ```
+
+With 3 blocks
+```
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [5, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[1, 4]:[[0, 0]]], [[0, 4]:[[0, 0]]]]
+	- Total Characters: 2
+[ss•..]
+[e..•.]
+[e....]
+[.....]
+[.•...]
+SaveMovement
+	- movement: [[0, -1], [1, 0], [0, 1], [1, 0], [0, -1], [1, 0], [0, 1], [-1, 0], [0, -1], [-1, 0], [0, 1], [1, 0], [0, -1], [-1, 0], [0, 1], [-1, 0]]
+	- characters: [[[0, 2]:[[0, 0]]], [[0, 3]:[[0, 0]]]]
+	- Solution Length: 16
+	- Total Checks: 36
+	- Total Time: 0.0
+	- Total Empty Spaces: 22
+–––––
+```
+
+
+
+
+---
+
+# 5x5
 
 Here is the *2rd hardest* 5x5 Ever Maze puzzle, with 2 walls.
 11 moves
