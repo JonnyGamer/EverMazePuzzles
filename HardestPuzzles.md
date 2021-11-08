@@ -3,28 +3,8 @@
 
 Here is the *hardest* 5x5 Ever Maze puzzles, with 2 walls.
 
+
 ```
-–––––
-Ever Maze v1
-name: Welcome to my Level 1!
-dimensions: [5, 5]
-SaveMovement
-	- movement: []
-	- characters: [[[4, 0]:[[0, 0]]], [[4, 1]:[[0, 0]]]]
-	- Total Characters: 2
-[e....]
-[...•.]
-[e....]
-[....s]
-[.•..s]
-SaveMovement
-	- movement: [[-1, 0], [0, 1], [-1, 0], [0, -1], [-1, 0], [0, 1], [1, 0], [0, -1], [1, 0], [0, 1], [-1, 0]]
-	- characters: [[[0, 4]:[[0, 0]]], [[0, 2]:[[0, 0]]]]
-	- Solution Length: 11
-	- Total Checks: 26
-	- Total Time: 0.0
-	- Total Empty Spaces: 23
-–––––
 –––––
 Ever Maze v1
 name: Welcome to my Level 1!
@@ -48,7 +28,35 @@ SaveMovement
 –––––
 ```
 
-# with 10 moves
+Here is the *2rd hardest* 5x5 Ever Maze puzzle, with 2 walls.
+11 moves
+
+```
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [5, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[4, 0]:[[0, 0]]], [[4, 1]:[[0, 0]]]]
+	- Total Characters: 2
+[e....]
+[...•.]
+[e....]
+[....s]
+[.•..s]
+SaveMovement
+	- movement: [[-1, 0], [0, 1], [-1, 0], [0, -1], [-1, 0], [0, 1], [1, 0], [0, -1], [1, 0], [0, 1], [-1, 0]]
+	- characters: [[[0, 4]:[[0, 0]]], [[0, 2]:[[0, 0]]]]
+	- Solution Length: 11
+	- Total Checks: 26
+	- Total Time: 0.0
+	- Total Empty Spaces: 23
+–––––
+```
+
+Here is the *3rd hardest* 5x5 Ever Maze puzzles, with 2 walls.
+10 moves
 
 ```
 –––––
