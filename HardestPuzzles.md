@@ -171,3 +171,36 @@ SaveMovement
 	- Total Empty Spaces: 19
 –––––
 ```
+
+
+___
+
+# 4x4
+
+
+```
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [4, 4]
+SaveMovement
+	- movement: []
+	- characters: [[[0, 1]:[[0, 0]]], [[0, 2]:[[0, 0]]]]
+	- Total Characters: 2
+[•...]
+[s.•.]
+[b•.e]
+[•••.]
+SaveMovement
+	- movement: [[1, 0], [0, 1], [1, 0], [0, 1], [1, 0], [0, -1], [1, 0], [0, -1], [-1, 0], [0, 1], [-1, 0], [0, -1], [-1, 0], [0, -1], [1, 0]]
+	- characters: [[[3, 1]:[[0, 0]]], [[0, 1]:[[0, 0]]]]
+	- Solution Length: 15
+	- Total Checks: 27
+	- Total Time: 0.0
+	- Total Empty Spaces: 10
+–––––
+```
+
+
+
+
