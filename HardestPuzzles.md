@@ -197,6 +197,31 @@ SaveMovement
 –––––
 ```
 
+With 8 Blocks (29)
+```
+–––––
+Ever Maze v1
+name: Welcome to my Level 1!
+dimensions: [5, 5]
+SaveMovement
+	- movement: []
+	- characters: [[[4, 4]:[[0, 0]]], [[4, 3]:[[0, 0]]]]
+	- Total Characters: 2
+[••..s]
+[...•b]
+[..•.•]
+[•e...]
+[•..•.]
+SaveMovement
+	- movement: [[-1, 0], [0, 1], [-1, 0], [0, -1], [-1, 0], [0, -1], [1, 0], [0, -1], [-1, 0], [0, -1], [1, 0], [0, 1], [1, 0], [0, -1], [-1, 0], [0, -1], [1, 0], [0, -1], [1, 0], [0, 1], [1, 0], [0, 1], [-1, 0], [0, 1], [1, 0], [0, 1], [1, 0], [0, -1], [-1, 0]]
+	- characters: [[[1, 1]:[[0, 0]]], [[4, 3]:[[0, 0]]]]
+	- Solution Length: 29
+	- Total Checks: 70
+	- Total Time: 0.0
+	- Total Empty Spaces: 17
+–––––
+```
+
 
 ___
 
